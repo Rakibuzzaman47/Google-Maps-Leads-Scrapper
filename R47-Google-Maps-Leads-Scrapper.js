@@ -50,5 +50,5 @@ for ( n = 0; n < length ; n++ ) {
 var hiddenElement = document.createElement('a');
     hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
     hiddenElement.target = '_blank';
-    hiddenElement.download = 'snm-googlemaps-leads.csv';
+    hiddenElement.download = 'r47-googlemaps-leads.csv';
     hiddenElement.click();  
